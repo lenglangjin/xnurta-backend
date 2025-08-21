@@ -1,0 +1,25 @@
+wx:
+  miniapp:
+    appid: ${WX_MINIAPP_APPID:wx8adf478bbc8bf3fe}
+    secret: ${WX_MINIAPP_SECRET:8f546d08076376ce489a91ab3904ad62}
+  pay:
+#    设置微信公众号或者小程序等的appid
+    appId: ${WX_PAY_APPID:wx8adf478bbc8bf3fe}
+#    微信支付商户号
+    mchId: ${WX_PAY_MCH_ID:1699259051}
+#    微信支付商户密钥
+#    mchKey: Kuailedazi123456Kuailedazi123456
+#    服务商模式下的子商户公众账号ID，普通模式请不要配置，请在配置文件中将对应项删除
+#    subAppId:
+#    服务商模式下的子商户号，普通模式请不要配置，最好是请在配置文件中将对应项删除
+#    subMchId:
+#    apiclient_cert.p12文件的绝对路径，或者如果放在项目中，请以classpath:开头指定
+    keyPath: ${WX_PAY_KEY_PATH:/Users/lenglangjin/Desktop/1699259051_20241124_cert/apiclient_cert.pem}
+#    serviceId:
+    certSerialNo: ${WX_PAY_CERT_SERIAL_NO:6F0BE0122484863A7EF4A1C8B3A903345896DE4E}
+    apiv3Key: ${WX_PAY_API_V3_KEY:Kuailedazi123456Kuailedazi123456}
+#    payScoreNotifyUrl:
+    privateKeyPath: ${WX_PAY_PRIVATE_KEY_PATH:/Users/lenglangjin/Desktop/1699259051_20241124_cert/apiclient_key.pem}
+    privateCertPath: ${WX_PAY_PRIVATE_CERT_PATH:/Users/lenglangjin/Desktop/1699259051_20241124_cert/apiclient_cert.pem}
+#    支付回调地址
+    notifyUrl: ${leda.domain}${WX_PAY_NOTIFY_URL:/api/leda/wechat/pay/callback}
