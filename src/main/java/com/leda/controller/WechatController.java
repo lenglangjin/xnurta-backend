@@ -1,12 +1,6 @@
 package com.leda.controller;
 
-import com.github.binarywang.wxpay.bean.result.WxPayUnifiedOrderV3Result;
-import com.github.binarywang.wxpay.exception.WxPayException;
-import com.leda.core.vo.wechat.WxPayCallBackRequest;
-import com.leda.core.vo.wechat.WxPayCreateOrderParam;
-import com.leda.service.wechat.WeChatPayHelper;
-import com.leda.utils.AjaxResult;
-import com.leda.utils.StringUtils;
+
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
