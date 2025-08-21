@@ -1,8 +1,8 @@
 wx:
   mp:
-    appid: ${WX_MP_APPID:your_mp_appid}
-    secret: ${WX_MP_SECRET:your_mp_secret}
+    appid: ${WX_MP_APPID:wxee343be0548b8cab}
+    secret: ${WX_MP_SECRET:860e2612e36c3e73334e76245a8cc1eb}
     token: ${WX_MP_TOKEN:your_mp_token}
     aesKey: ${WX_MP_AES_KEY:your_mp_aes_key}
     template:
-      course-reminder: ${WX_MP_TEMPLATE_COURSE_REMINDER:your_template_id}
+      course-reminder: ${WX_MP_TEMPLATE_COURSE_REMINDER:Aafy7xVUKJ94R67jiX-y-u0zfBcv82aMgCSL9C8ngWI}
